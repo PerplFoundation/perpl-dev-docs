@@ -1,0 +1,31 @@
+# Perpl Developer Documentation
+
+Welcome to the developer documentation for **Perpl**, a perpetual futures exchange built on Monad.
+
+These docs walk you through everything you need to build on Perpl — from your first authenticated request to running trading strategies through the SDK.
+
+## Where to start
+
+- **New here?** Read the [Overview](getting-started/overview.md) to understand what Perpl offers, then follow the [Quickstart](getting-started/quickstart.md) to make your first call.
+- **Connecting an app?** Set up [Networks & Configuration](getting-started/networks.md) for the environment you target (mainnet, testnet, or solonet).
+
+## Main sections
+
+### [Getting Started](getting-started/overview.md)
+Orientation, network/environment configuration, and a hands-on quickstart.
+
+### [API Guide](api/authentication.md)
+The HTTP and streaming surface: [Authentication](api/authentication.md), the [REST API](api/rest.md), the [WebSocket API](api/websocket.md), and shared [Types & Errors](api/types-and-errors.md).
+
+### [SDK Guide](sdk/install.md)
+The recommended path for most integrations: [Install the SDK](sdk/install.md), core [Concepts](sdk/concepts.md), a [Quickstart](sdk/quickstart.md), the [perpl-cli](sdk/perpl-cli.md) debugging tool, and runnable [Examples](sdk/examples.md).
+
+### [Direct API](direct-api/typescript.md)
+Talk to the exchange without the SDK, from [TypeScript](direct-api/typescript.md) or [Python](direct-api/python.md).
+
+### [Recipes](recipes.md)
+Task-oriented, copy-pasteable solutions to common integration problems.
+
+---
+
+Prefer the table of contents? See [SUMMARY.md](SUMMARY.md).
