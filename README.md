@@ -15,7 +15,7 @@ These docs walk you through everything you need to build on Perpl — from your 
 Orientation, network/environment configuration, and a hands-on quickstart.
 
 ### [API Guide](api/authentication.md)
-The HTTP and streaming surface: [Authentication](api/authentication.md), the [REST API](api/rest.md), the [WebSocket API](api/websocket.md), and shared [Types & Errors](api/types-and-errors.md).
+The HTTP and streaming surface: [Authentication](api/authentication.md), the [REST API](api/rest.md), the [WebSocket API](api/websocket.md), shared [Types & Errors](api/types-and-errors.md), and [Builder Codes](api/builder-codes.md) for fee-charging integrations.
 
 ### [SDK Guide](sdk/install.md)
 The recommended path for most integrations: [Install the SDK](sdk/install.md), core [Concepts](sdk/concepts.md), a [Quickstart](sdk/quickstart.md), the [perpl-cli](sdk/perpl-cli.md) debugging tool, and runnable [Examples](sdk/examples.md).

@@ -14,6 +14,7 @@
 * [REST API](api/rest.md)
 * [WebSocket API](api/websocket.md)
 * [Types & Errors](api/types-and-errors.md)
+* [Builder Codes](api/builder-codes.md)
 
 ## SDK Guide
 

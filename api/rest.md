@@ -278,7 +278,8 @@ interface AccountEvent {
   a: string;                // Amount change
   b: string;                // Updated balance
   lb: string;               // Locked balance
-  f: string;                // Fee
+  f: string;                // Fee (gross: protocol fee + `bfa`)
+  bfa?: string;             // Builder-fee portion of `f`, omitted when zero
 }
 ```
 
@@ -325,7 +326,8 @@ interface Fill {
   l: LiquiditySide; // Maker=1, Taker=2
   p?: number;       // Fill price (scaled)
   s: number;        // Filled size (scaled)
-  f: string;        // Fee/rebate
+  f: string;        // Fee/rebate (gross: protocol fee + `bfa`)
+  bfa?: string;     // Builder-fee portion of `f`, omitted when zero
 }
 ```
 
